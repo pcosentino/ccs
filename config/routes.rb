@@ -32,6 +32,11 @@ Ccs::Application.routes.draw do
   #     resource :seller
   #   end
   root :to => 'pages#index'
+  get 'pages/index'
+  get 'pages/about'
+  get 'pages/work'
+  get 'pages/contact'
+
   # Example resource route with more complex sub-resources:
   #   resources :products do
   #     resources :comments

@@ -1,3 +1,38 @@
+*{
+	margin:0;
+}
 html{
-	background: gray;
+	background: #171717;
+	font-family: Arial;
+}
+div#index{
+	background: url(/assets/construction.jpg);
+	height: 1050px;
+	width: 100%;
+}
+h1{
+	font-size: 2em;
+	color:#f5c717;
+}
+p{
+	color:#f5c717;
+	margin-top:1em;
+	font-size: 1.2em;
+}
+.header{
+	padding-top:8em;
+	padding-left: 1em;
+}
+
+
+@media only screen and (max-device-width : 480px) {
+	div#index{
+		height:949px;
+	}
+	h1{
+		font-size: 4em;
+	}
+	p{
+		font-size: 3.2em;
+	}
 }
