@@ -23,7 +23,18 @@ p{
 	padding-top:8em;
 	padding-left: 1em;
 }
-
+nav{
+	margin-top:1em;
+}
+#home, #about, #work, #contact{
+	background:#f5c717;
+	color:#171717;
+	padding:.5em;
+	text-decoration: none;
+	font-size: 1.5em;
+	margin-top:10px;
+	margin:10px 0px 0 -6px;
+}
 
 @media only screen and (max-device-width : 480px) {
 	div#index{
@@ -34,5 +45,16 @@ p{
 	}
 	p{
 		font-size: 3.2em;
+	}
+	nav{
+		margin-top: 2em;
+	}
+	#home, #about, #work, #contact{
+	background:#f5c717;
+	color:#171717;
+	padding:.5em;
+	text-decoration: none;
+	font-size: 3em;
+	margin:10px 0px 0 -6px;
 	}
 }
