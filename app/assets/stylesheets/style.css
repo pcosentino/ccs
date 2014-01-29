@@ -2,39 +2,188 @@
 	margin:0;
 }
 html{
-	background: #171717;
-	font-family: Arial;
-}
-div#index{
-	background: url(/assets/construction.jpg);
-	height: 1050px;
-	width: 100%;
+	background: url(/assets/dark-wood.jpg);
+	font-family: 'News Cycle', sans-serif;
 }
 h1{
 	font-size: 2em;
-	color:#f5c717;
 }
 p{
-	color:#f5c717;
-	margin-top:1em;
-	font-size: 1.2em;
+	font-size: 1em;
 }
-.header{
-	padding-top:8em;
-	padding-left: 1em;
-}
-nav{
-	margin-top:1em;
-}
-#home, #about, #work, #contact{
-	background:#f5c717;
-	color:#171717;
-	padding:.5em;
+a{
 	text-decoration: none;
-	font-size: 1.5em;
-	margin-top:10px;
-	margin:10px 0px 0 -6px;
 }
+/************HEADER*************/
+#header{
+	width: 1000px;
+	margin: 0 auto;
+	background: url(/assets/med-wood.jpg) ;
+}
+#home_wrapper, #about_wrapper, #portfolio_wrapper, #services_wrapper, #wos_wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+/************NAVIGATION*************/
+nav{
+
+}
+#navigation{
+	width: 380px;
+	position: absolute;
+	margin-left: 620px;
+	margin-top: 14px;
+}
+#home{
+	margin-left: 125px;
+	background: url(/assets/logo.png) no-repeat;
+	width: 320px;
+	height: 85px;
+	text-indent: -9999px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#about, #work, #services, #wos{
+	background: url(/assets/dark-wood.jpg);
+	color:#fff;
+	padding:12px;
+	text-decoration: none;
+	font-size: .8em;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right:-5px;
+	margin-bottom: 0px;
+}
+#about:hover, #work:hover, #services:hover, #wos:hover{
+	text-decoration: underline;
+}
+#upper_nav{
+	height: 28px;
+	text-align: right;
+}
+#upper_nav a:hover{
+	text-decoration: underline;
+}
+.nav:last-child{
+	border:none;
+}
+.nav{
+	border-right:1px solid #000;
+	padding-right: 5px;
+	font-size:12px;
+	color:#000;
+	padding-bottom: 3px;
+}
+/************CONTAINER*************/
+#container{
+	background: #fff;
+	margin: 0 auto;
+	width:950px;
+	padding:25px;
+}
+/************FOOTER*************/
+footer{
+	background: url(/assets/med-wood.jpg);
+
+	width:1000px;
+	height:150px;
+	padding-top: 30px;
+	margin:0 auto;
+}
+footer #marine_img{
+	background: url(/assets/marine.jpg);
+	width: 150px;
+	vertical-align: middle;
+	margin-left: 50px;
+}
+footer #marine p{
+	width: 260px;
+	display: inline-block;
+	margin:0px 0 0 10px;
+	vertical-align: middle;
+}
+footer #connect{
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+footer #connect img{
+	width:30px;
+}
+footer #connect p, footer #connect img{
+	display: inline-block;
+	vertical-align: middle;
+}
+/************INDEX*************/
+.slideshow {
+  position: relative;
+	height: 500px;
+	margin: 0px 0 0 0px;
+	width: 1000px;
+}
+.slideshow img{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+}
+.slideshow .slides .slide {
+  visibility:hidden;
+  position:absolute;
+  top:0;
+}
+
+/************PORTFOLIO*************/
+#portfolio_wrapper #container p {
+	width: 50%;
+	margin-bottom: 20px;
+}
+#portfolio_wrapper #container	h3{
+	border-bottom: 2px dashed #000;
+	width: 273px;
+	margin-bottom: 10px;
+}
+
+/************SERVICES*************/
+#services_wrapper h3{
+	border-bottom: 2px dashed #000;
+	margin-top: 25px;
+}
+#services_wrapper #container #what_we_do h3{
+	width: 355px;
+	margin-bottom: 10px;
+	margin-right:150px;
+}
+#services_wrapper #container #values h3{
+	width:200px;
+}
+#what_we_do, #values{
+	float: left;
+
+}
+.clear{
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-device-width : 480px) {
 	div#index{

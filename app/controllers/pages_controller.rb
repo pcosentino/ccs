@@ -6,10 +6,13 @@ class PagesController < ApplicationController
 	def about
 	end
 
-	def work
+	def portfolio
 	end
 
-	def contact
+	def services
+	end
+
+	def wos
 	end
 
  	def send_email
