@@ -20,7 +20,6 @@
 var click = function () {
     $("#submit_form_button").removeClass("disable");
     $("#submit_form_button").click(function () {
-        alert("DONE");
         $('#submit_form_button').unbind();
         setTimeout(function () {
             click();
