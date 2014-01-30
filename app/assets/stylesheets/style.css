@@ -160,6 +160,9 @@ footer #connect p, footer #connect img{
 	float: left;
 
 }
+.disable {
+    color:#b7b7b7;
+}
 .clear{
 	clear:both;
 }
