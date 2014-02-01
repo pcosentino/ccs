@@ -7,6 +7,7 @@ html{
 }
 h1{
 	font-size: 2em;
+	border-bottom: 1px solid #000;
 }
 p{
 	font-size: 1em;
@@ -84,27 +85,25 @@ nav{
 /************FOOTER*************/
 footer{
 	background: url(/assets/med-wood.jpg);
-
 	width:1000px;
-	height:150px;
+	height:200px;
 	padding-top: 30px;
 	margin:0 auto;
 }
 footer #marine_img{
 	background: url(/assets/marine.jpg);
-	width: 150px;
+	width: 193px;
 	vertical-align: middle;
-	margin-left: 50px;
+	margin-left: 30px;
 }
 footer #marine p{
-	width: 260px;
+	width: 230px;
 	display: inline-block;
-	margin:0px 0 0 10px;
 	vertical-align: middle;
 }
 footer #connect{
 	float: right;
-	margin-top: 50px;
+	margin-top: 75px;
 	margin-right: 50px;
 }
 footer #connect img{
@@ -131,21 +130,36 @@ footer #connect p, footer #connect img{
   position:absolute;
   top:0;
 }
-
+/************ABOUT US*************/
+#about_wrapper p{
+	width: 490px
+}
+#about_wrapper h3{
+	border-bottom: 1px dashed #000;
+	margin-top: 25px;
+	width: 900px
+}
 /************PORTFOLIO*************/
 #portfolio_wrapper #container p {
-	width: 50%;
 	margin-bottom: 20px;
 }
 #portfolio_wrapper #container	h3{
-	border-bottom: 2px dashed #000;
+	border-bottom: 1px dashed #000;
 	width: 273px;
 	margin-bottom: 10px;
 }
-
+.left{
+	width: 345px;
+	float: left;
+	margin-right: 35px;
+}
+#nw_med_room{
+	max-width: 570px;
+	float: left;
+}
 /************SERVICES*************/
 #services_wrapper h3{
-	border-bottom: 2px dashed #000;
+	border-bottom: 1px dashed #000;
 	margin-top: 25px;
 }
 #services_wrapper #container #what_we_do h3{

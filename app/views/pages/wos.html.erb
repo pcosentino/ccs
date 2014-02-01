@@ -1,20 +1,26 @@
 <div id="wos_wrapper">
 	<div id="container">
-		<h1>Work Order System</h1>
-		<p>Please fee free to reach out, we'd love to hear from you</p>
+		<div class="left">
+			<h1>Work Order System</h1>
+			<p>Please fee free to reach out, we'd love to hear from you</p>
 
-		<%= form_tag url_for(:action => 'send_email'), :remote => true, :id => 'contact_form' do %>
-		      <div class="label">First Name:</div>
-		      <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "33" %><br>
-		      <div class="label">Last Name:</div>
-		      <%= text_field_tag :last_name, '', :name => "user[last_name]", :size => "33" %><br>
-		      <div class="label">Email Address:</div>
-		      <%= email_field_tag :email_address, '', :name => "user[email_address]", :size => "33" %><br>
-		      <div class="label">How can I help you?</div>
-		      <%= text_area_tag :notes, '', :name => "user[notes]", :size => "29x8" %><br>
-		      <%= submit_tag "Submit", :id => "submit_form_button" %>
-		<% end %>
-	</div>
+			<%= form_tag url_for(:action => 'send_email'), :remote => true, :id => 'contact_form' do %>
+			      <div class="label">First Name:</div>
+			      <%= text_field_tag :first_name, '', :name => "user[first_name]", :size => "33" %><br>
+			      <div class="label">Last Name:</div>
+			      <%= text_field_tag :last_name, '', :name => "user[last_name]", :size => "33" %><br>
+			      <div class="label">Email Address:</div>
+			      <%= email_field_tag :email_address, '', :name => "user[email_address]", :size => "33" %><br>
+			      <div class="label">How can I help you?</div>
+			      <%= text_area_tag :notes, '', :name => "user[notes]", :size => "29x8" %><br>
+			      <%= submit_tag "Submit", :id => "submit_form_button" %>
+			<% end %>
+		</div>
+		<div id="nw_med_room">
+			<img alt="" src="/assets/safety.jpg" />
+		</div>
+		<div class="clear"></div>
+	</div>	
 </div>
 <script>
 var click = function () {
