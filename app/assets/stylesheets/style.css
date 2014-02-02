@@ -86,15 +86,14 @@ nav{
 footer{
 	background: url(/assets/med-wood.jpg);
 	width:1000px;
-	height:200px;
-	padding-top: 30px;
+	height:220px;
 	margin:0 auto;
 }
 footer #marine_img{
 	background: url(/assets/marine.jpg);
 	width: 193px;
 	vertical-align: middle;
-	margin-left: 30px;
+	margin-left: 22px;
 }
 footer #marine p{
 	width: 230px;
