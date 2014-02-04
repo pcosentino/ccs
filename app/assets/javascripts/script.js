@@ -81,13 +81,5 @@ jQuery(function ($) {
     };
     click();
     //END SUBMIT FORM UNBIND
-
-    $("#login").click(function(){
-        $("html").addClass("test");
-    });
-    
-    $(".test")click(function(){
-        $(this).removeClass("test");
-    };
 });
 
