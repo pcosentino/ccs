@@ -38,6 +38,7 @@ Ccs::Application.routes.draw do
   get 'pages/portfolio'
   get 'pages/services'
   get 'pages/wos'
+  get 'pages/login'
 
   # Example resource route with more complex sub-resources:
   #   resources :products do

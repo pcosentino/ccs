@@ -1,6 +1,6 @@
 jQuery(function ($) {
+    //SLIDESHOW
     var timer;
-
     function button1_click(event) {
         $(".slide").css("visibility", "hidden");
         $("#image1").css("visibility", "visible");
@@ -62,15 +62,32 @@ jQuery(function ($) {
         clearTimeout(timer);
         timer = setTimeout(eval("button2_click"), "10000");
     }
-
     $('#button1').bind('click', button1_click);
-
     $('#button2').bind('click', button2_click);
-
     $('#button3').bind('click', button3_click);
-
     OnLoad();
+    //END SLIDESHOW
 
+    //SUBMIT FORM UNBIND
+    var click = function () {
+        $("#submit_form_button").removeClass("disable");
+        $("#submit_form_button").click(function () {
+            $('#submit_form_button').unbind();
+            setTimeout(function () {
+                click();
+            }, 5000);
+            $("#submit_form_button").addClass("disable");
+        });
+    };
+    click();
+    //END SUBMIT FORM UNBIND
+
+    $("#login").click(function(){
+        $("html").addClass("test");
+    });
+    
+    $(".test")click(function(){
+        $(this).removeClass("test");
+    };
 });
-
 
