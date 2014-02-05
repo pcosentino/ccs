@@ -27,14 +27,11 @@ a{
 	margin: 0 auto;
 }
 /************NAVIGATION*************/
-nav{
-
-}
 #navigation{
 	width: 380px;
 	position: absolute;
 	margin-left: 620px;
-	margin-top: 14px;
+	margin-top: 5px;
 }
 #home{
 	margin-left: 25px;
@@ -60,7 +57,7 @@ nav{
 	text-decoration: underline;
 }
 #upper_nav{
-	height: 28px;
+	height: 37px;
 	text-align: right;
 }
 #upper_nav a:hover{
@@ -108,7 +105,12 @@ footer #connect{
 footer #connect img{
 	width:30px;
 }
-footer #connect p, footer #connect img{
+footer #connect p{
+	text-align: right;
+	font-style: italic;
+}
+footer #connect img{
+	margin: 10px 3px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -132,17 +134,36 @@ footer #connect p, footer #connect img{
 #home_wrapper #info{
 	padding: 25px 45px;
 }
+#home_wrapper #info p{
+	margin-bottom: 12px;
+}
 /************ABOUT US*************/
 #about_wrapper #info{
 	padding: 25px 45px;
 }
 #about_wrapper p{
-	width: 490px
+	width: 450px;
 }
 #about_wrapper h3{
 	border-bottom: 1px dashed #000;
 	margin-top: 25px;
-	width: 900px
+	width: 450px
+}
+#about_wrapper #long p, #about_wrapper #long h3{
+	width: 900px;
+}
+#about_wrapper #affiliations{
+	float: left;
+}
+#about_wrapper #contacts h3{
+	width:350px;
+}
+#about_wrapper #contacts{
+	float: right;
+	width: 350px;
+}
+#about_wrapper #contacts p{
+	margin-bottom: 15px;
 }
 /************PORTFOLIO*************/
 #portfolio_wrapper #container p {
@@ -174,6 +195,9 @@ footer #connect p, footer #connect img{
 #services_wrapper h3{
 	border-bottom: 1px dashed #000;
 	margin-top: 25px;
+}
+#services_wrapper p{
+	margin-bottom: 12px;
 }
 #services_wrapper #container #what_we_do h3{
 	width: 355px;
