@@ -4,16 +4,28 @@
 html{
 	background: url(/assets/dark-wood.jpg);
 	/*font-family: 'Patrick Hand', cursive;*/
-	font-family: 'News Cycle', sans-serif;
+	font-family: 'Monda', cursive;
 }
 h1{
+	/*font-family: 'News Cycle', serif;*/
+	/*font-family: 'Glegoo', serif;*/
+	/*font-family: 'Josefin Slab', serif;*/
+	/*font-family: 'Unica One', cursive;*/
+	/*font-family: 'Patrick Hand', sans-serif;*/
+	/*font-family: 'Architects Daughter', sans-serif;*/
+	font-family: 'Keania One', cursive;
 	font-size: 2em;
 	border-bottom: 1px solid #000;
 }
-p{
+h3{
+	font-family: 'Keania One', cursive;
+}
+p, li{
+	font-family: 'Monda', cursive;
 	font-size: 1em;
 }
 a{
+	font-family: 'Monda', cursive;
 	text-decoration: none;
 }
 /************HEADER*************/
@@ -28,16 +40,16 @@ a{
 }
 /************NAVIGATION*************/
 #navigation{
-	width: 380px;
+	width: 450px;
 	position: absolute;
-	margin-left: 620px;
-	margin-top: 5px;
+	margin-left: 555px;
+	margin-top: 2px;
 }
 #home{
 	margin-left: 25px;
-	background: url(/assets/logo.png) no-repeat;
+	background: url(/assets/ccs.png) no-repeat;
 	width: 320px;
-	height: 85px;
+	height: 115px;
 	text-indent: -9999px;
 	display: inline-block;
 	vertical-align: middle;
@@ -59,6 +71,7 @@ a{
 #upper_nav{
 	height: 37px;
 	text-align: right;
+	margin-right: 8px;
 }
 #upper_nav a:hover{
 	text-decoration: underline;
@@ -83,24 +96,48 @@ a{
 footer{
 	background: url(/assets/med-wood.jpg);
 	width:1000px;
-	height:220px;
+	height:450px;
 	margin:0 auto;
 }
-footer #marine_img{
-	background: url(/assets/marine.jpg);
-	width: 193px;
+footer #content{
+	width:900px;
+	height: 450px;
+	margin:0 auto;
+}
+footer span#marine{
+	float: left;
+	margin-left: 25px;
+	margin-top: 60px;
+}
+footer #marine_img {
+	/*background: url(/assets/marine.jpg);*/
+	/*background: url(/assets/flag.jpg);*/
+	width: 145px;
 	vertical-align: middle;
-	margin-left: 22px;
+	margin-left: 42px;
+}
+footer #us_flag{
+	margin-left: 40px;
 }
 footer #marine p{
 	width: 230px;
-	display: inline-block;
+	/*display: inline-block;*/
 	vertical-align: middle;
 }
+footer #aff_imgs{
+	width:100px;
+	float:left;
+	margin-left: 130px;
+	margin-top: 25px;
+}
+footer #aff_imgs img{
+	max-width: 90px;
+}
 footer #connect{
-	float: right;
-	margin-top: 75px;
-	margin-right: 50px;
+	float: left;
+	margin-left: 130px;
+	margin-top: 154px;
+	/*margin-right: 50px;*/
 }
 footer #connect img{
 	width:30px;
@@ -110,9 +147,12 @@ footer #connect p{
 	font-style: italic;
 }
 footer #connect img{
-	margin: 10px 3px;
+	margin: 10px 5px;
 	display: inline-block;
 	vertical-align: middle;
+}
+footer #connect #social{
+	margin-left: 60px;
 }
 /************INDEX*************/
 .slideshow {
