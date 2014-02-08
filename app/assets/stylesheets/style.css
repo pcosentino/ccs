@@ -221,6 +221,7 @@ footer #connect #social{
 	margin-bottom: 10px;
 }
 #portfolio_wrapper #info{
+	background: url("/assets/usmarine.jpg") no-repeat 14px 80px;
 	width: 330px;
 	float: left;
 	padding:25px 45px;
