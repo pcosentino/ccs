@@ -1,10 +1,14 @@
 *{
 	margin:0;
 }
+@font-face{
+	font-family: scratch;
+	src:url(pwscratchedfont-webfont.woff);
+}
 html{
 	background: url(/assets/dark-wood.jpg);
 	/*font-family: 'Patrick Hand', cursive;*/
-	font-family: 'Monda', cursive;
+	font-family: 'Russo One', sans-serif;
 }
 h1{
 	/*font-family: 'News Cycle', serif;*/
@@ -13,19 +17,20 @@ h1{
 	/*font-family: 'Unica One', cursive;*/
 	/*font-family: 'Patrick Hand', sans-serif;*/
 	/*font-family: 'Architects Daughter', sans-serif;*/
-	font-family: 'Keania One', cursive;
+	/*font-family: 'Keania One', cursive;*/
+	font-family: 'Russo One', sans-serif;
 	font-size: 2em;
 	border-bottom: 1px solid #000;
 }
 h3{
-	font-family: 'Keania One', cursive;
+	font-family: 'Russo One', sans-serif;
 }
 p, li{
-	font-family: 'Monda', cursive;
+	font-family: 'Russo One', sans-serif;
 	font-size: 1em;
 }
 a{
-	font-family: 'Monda', cursive;
+	font-family: 'Russo One', sans-serif;
 	text-decoration: none;
 }
 /************HEADER*************/
@@ -43,7 +48,7 @@ a{
 	width: 450px;
 	position: absolute;
 	margin-left: 555px;
-	margin-top: 2px;
+	margin-top: -5px;
 }
 #home{
 	margin-left: 25px;
@@ -69,7 +74,7 @@ a{
 	text-decoration: underline;
 }
 #upper_nav{
-	height: 37px;
+	height: 74px;
 	text-align: right;
 	margin-right: 8px;
 }
@@ -82,7 +87,7 @@ a{
 .nav{
 	border-right:1px solid #000;
 	padding-right: 5px;
-	font-size:14px;
+	font-size:10px;
 	color:#000;
 	padding-bottom: 3px;
 }
@@ -109,14 +114,16 @@ footer span#marine{
 	margin-top: 60px;
 }
 footer #marine_img {
-	width: 80px;
+	width: 88px;
+	margin-left: 40px;
 	vertical-align: middle;
 }
 footer #us_flag{
 	vertical-align: middle;
+	width: 105px;
 }
 footer #marine p{
-	width: 240px;
+	width: 260px;
 	/*display: inline-block;*/
 	vertical-align: middle;
 }
@@ -178,6 +185,10 @@ footer #connect #social{
 }
 #about_wrapper p{
 	width: 450px;
+}
+#about_wrapper #container{
+	background: url("/assets/marine_run.jpg");
+	opacity: .8;
 }
 #about_wrapper h3{
 	border-bottom: 1px dashed #000;
