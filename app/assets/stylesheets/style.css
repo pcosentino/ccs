@@ -3,7 +3,7 @@
 }
 @font-face{
 	font-family: scratch;
-	src:url(pwscratchedfont-webfont.woff);
+	src:url(/assets/pwscratchedfont-webfont.woff);
 }
 html{
 	background: url(/assets/dark-wood.jpg);
@@ -18,12 +18,12 @@ h1{
 	/*font-family: 'Patrick Hand', sans-serif;*/
 	/*font-family: 'Architects Daughter', sans-serif;*/
 	/*font-family: 'Keania One', cursive;*/
-	font-family: 'Russo One', sans-serif;
+	font-family: scratch;
 	font-size: 2em;
 	border-bottom: 1px solid #000;
 }
 h3{
-	font-family: 'Russo One', sans-serif;
+	font-family: scratch;
 }
 p, li{
 	font-family: 'Russo One', sans-serif;
