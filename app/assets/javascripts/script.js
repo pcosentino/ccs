@@ -52,7 +52,7 @@ jQuery(function ($) {
         }, 900, "linear", null);
         $("#button3").addClass("active");
         clearTimeout(timer);
-        timer = setTimeout(eval("button1_click"), "5000");
+        timer = setTimeout(eval("button4_click"), "5000");
         $("#image3").animate({
             "opacity": 1
         }, 900, "linear", null);
