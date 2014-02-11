@@ -176,6 +176,45 @@ footer #connect #social{
 #facebook{
 	background: url("/assets/social_sprite.png") 90px 0;
 }
+#aegis{
+	background: url("/assets/aff_sprite.png") 0 0;
+	width:148px;
+	height: 70px;
+	float: left;
+}
+#ashe{
+	background: url("/assets/aff_sprite.png")-148px 0px;
+	width:156px;
+	height:70px;
+	float: left;
+}
+#hesni{
+	background: url("/assets/aff_sprite.png")-304px 0px;
+	width: 70px;
+	height: 70px;
+	float: left;
+}
+#usgbc{
+	background: url("/assets/aff_sprite.png")-374px 0px;
+	width: 70px;
+	height: 70px;
+	float: left;
+}
+#wbe{
+	background: url("/assets/aff_sprite.png")-444px 0px;
+	width: 136px;
+	height: 70px;
+	float: left;
+}
+#nfpa{
+	background: url("/assets/aff_sprite.png")-580px 0px;
+	width: 70px;
+	height: 70px;
+	float: left;
+}
+.aff{
+	margin-right:50px;
+}
 /************INDEX*************/
 .slideshow {
   position: relative;
