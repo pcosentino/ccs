@@ -95,69 +95,69 @@ img{
 	width:1000px;
 }
 /************FOOTER*************/
-footer{
+#footer{
 	background: url(/assets/med-wood.jpg);
 	width:1000px;
 	height:400px;
 	margin:0 auto;
 }
-footer #content{
+#footer #content{
 	width:900px;
 	height: 400px;
 	margin:0 auto;
 }
-footer span#marine{
+#footer span#marine{
 	float: left;
 	margin-top: 60px;
 }
-footer #marine_img {
+#footer #marine_img {
 	width: 88px;
 	margin-left: 40px;
 	vertical-align: middle;
 }
-footer #us_flag{
+#footer #us_flag{
 	vertical-align: middle;
 	width: 105px;
 }
-footer #marine p{
+#footer #marine p{
 	width: 260px;
 	/*display: inline-block;*/
 	vertical-align: middle;
 }
-footer #aff_imgs{
+#footer #aff_imgs{
 	width: 110%;
 	float:left;
 	margin-top: 45px;
 }
-footer #aff_imgs img{
+#footer #aff_imgs img{
 	height: 74px;
 	margin-right:37px;
 }
-footer #connect{
+#footer #connect{
 	float: right;
 	margin-top: 60px;
 }
-footer #connect #years img{
+#footer #connect #years img{
 	width: 100px;
 	margin: 0px;
 	margin-left: 80px;
 }
-footer #connect img{
+#footer #connect img{
 	width:30px;
 }
-footer #connect p{
+#footer #connect p{
 	text-align: right;
 	font-style: italic;
 }
-footer #connect #years h1{
+#footer #connect #years h1{
 	font-size: 60px;
 }
-footer #connect img{
+#footer #connect img{
 	margin: 10px 5px;
 	display: inline-block;
 	vertical-align: middle;
 }
-footer #connect #social{
+#footer #connect #social{
 	float: right;
 }
 #twitter, #youtube, #linkedin, #facebook{
