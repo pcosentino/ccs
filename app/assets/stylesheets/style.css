@@ -56,9 +56,6 @@ img{
 	display:block;
 	vertical-align: middle;
 }
-#lower_nav{
-	width:450px;
-}
 #about, #work, #services, #wos{
 	background: url(/assets/dark-wood.jpg);
 	color:#fff;
@@ -75,8 +72,8 @@ img{
 }
 #upper_nav{
 	height: 74px;
-	text-align: right;
-	margin-right: 8px;
+	margin-left: 253px;
+	display: block;
 }
 #upper_nav a:hover{
 	text-decoration: underline;
