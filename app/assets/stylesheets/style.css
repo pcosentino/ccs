@@ -153,9 +153,10 @@ img{
 	font-size: 60px;
 }
 #footer #connect img{
-	margin: 10px 5px;
-	display: inline-block;
 	vertical-align: middle;
+}
+#footer #years {
+	width: 267px;
 }
 #footer #connect #social{
 	float: right;
