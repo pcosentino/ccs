@@ -37,6 +37,7 @@ Ccs::Application.routes.draw do
   get 'pages/about'
   get 'pages/portfolio'
   get 'pages/services'
+  get 'pages/team'
   get 'pages/wos'
   get 'pages/login'
 

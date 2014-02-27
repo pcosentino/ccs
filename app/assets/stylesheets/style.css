@@ -42,9 +42,9 @@ img{
 }
 /************NAVIGATION*************/
 #navigation{
-	width: 455px;
+	width: 550px;
 	position: absolute;
-	margin-left: 553px;
+	margin-left: 465px;
 	margin-top: -5px;
 }
 #home{
@@ -56,7 +56,7 @@ img{
 	display:block;
 	vertical-align: middle;
 }
-#about, #work, #services, #wos{
+#about, #work, #services, #team,#wos{
 	background: url(/assets/dark-wood.jpg);
 	color:#fff;
 	padding:12px;
@@ -72,7 +72,7 @@ img{
 }
 #upper_nav{
 	height: 74px;
-	margin-left: 253px;
+	margin-left: 500px;
 	display: block;
 }
 #upper_nav a:hover{
@@ -116,8 +116,8 @@ img{
 	vertical-align: middle;
 }
 #footer #us_flag{
-	vertical-align: middle;
-	width: 105px;
+	width: 145px;
+	margin-left: 55px;
 }
 #footer #marine p{
 	width: 260px;
@@ -159,6 +159,7 @@ img{
 	width: 267px;
 }
 #footer #connect #social{
+	margin-left: 35px;
 }
 #twitter, #youtube, #linkedin, #facebook{
 	background: url("/assets/social_sprite.png");
@@ -246,7 +247,8 @@ img{
 	width: 450px;
 }
 #about_wrapper #container{
-	background: #fffde7 url("/assets/marine_run.jpg") no-repeat;
+	background: #fffde7 url("/assets/handshake.jpg") no-repeat;
+	/*background: #fffde7 url("/assets/marine_run.jpg") no-repeat;*/
 }
 #about_wrapper h3{
 	border-bottom: 1px dashed #000;
@@ -259,15 +261,12 @@ img{
 #about_wrapper #affiliations{
 	float: left;
 }
-#about_wrapper #contacts h3{
-	width:350px;
-}
-#about_wrapper #contacts{
+#values{
 	float: right;
-	width: 380px;
+	width: 350px;
 }
-#about_wrapper #contacts p{
-	margin-bottom: 15px;
+#values h3{
+	width:350px;
 }
 /************PORTFOLIO*************/
 #portfolio_wrapper #container p {
@@ -276,13 +275,17 @@ img{
 #portfolio_wrapper #container	h3{
 	border-bottom: 1px dashed #000;
 	width: 273px;
-	margin-bottom: 10px;
+	margin: 10px 0;
 }
 #portfolio_wrapper #info{
-	background: url("/assets/usmarine.jpg") no-repeat 14px 80px;
+	/*background: #fffde7 url("/assets/handshake.jpg") no-repeat;*/
+	/*background: url("/assets/usmarine.jpg") no-repeat 14px 80px;*/
 	width: 330px;
 	float: left;
 	padding:25px 45px;
+}
+#portfolio_wrapper ul{
+	margin-bottom:2em;
 }
 #nw_med{
 	width:570px;
@@ -300,20 +303,53 @@ img{
 #services_wrapper h3{
 	border-bottom: 1px dashed #000;
 	margin-top: 25px;
+	margin-bottom: 10px;	
 }
 #services_wrapper p{
 	margin-bottom: 12px;
 }
-#services_wrapper #container #what_we_do h3{
-	width: 355px;
-	margin-bottom: 10px;
-	margin-right:150px;
-}
-#services_wrapper #container #values h3{
-	width:200px;
-}
-#what_we_do, #values{
+#what_we_do{
 	float: left;
+	margin-right: 130px;
+}
+#our_projects{
+	float: left;
+	width: 375px;
+}
+#service_paragraph{
+	margin-top:30px;
+}
+/************OUR TEAM*************/
+#team_wrapper #container{
+	background: #fffde7 url("/assets/handshake.jpg") no-repeat;
+}
+#team_wrapper #info{
+	padding:25px 45px;
+}
+#team_wrapper #contacts h3{
+	width:700px;
+	border-bottom: 1px dashed #000;
+	margin-top: 25px;
+	margin-bottom:10px;
+}
+#team_wrapper h4{
+	border-bottom:1px solid #000;
+	margin-bottom:5px;
+}
+#team_wrapper #contacts{
+	width: 640px;
+}
+#team_wrapper #contacts ul{
+	margin-bottom:70px;
+}
+#team_wrapper li{
+	list-style: none;
+}
+.contact_left{
+	float: left;
+}
+#nudge{
+	margin-right:65px;
 }
 /************WORK ORDER SYSTEM*************/
 #wos_wrapper #info{
