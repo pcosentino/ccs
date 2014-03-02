@@ -98,7 +98,7 @@ img{
 #footer{
 	background: url(/assets/med-wood.jpg);
 	width:1000px;
-	height:400px;
+	height:300px;
 	margin:0 auto;
 }
 #footer #content{
@@ -117,7 +117,7 @@ img{
 }
 #footer #us_flag{
 	width: 145px;
-	margin-left: 55px;
+	margin-left: 27px;
 }
 #footer #marine p{
 	width: 260px;
@@ -216,6 +216,10 @@ img{
 .aff{
 	margin-right:50px;
 }
+#aff_imgs{
+	width: 110%;
+	height:70px;
+}
 /************INDEX*************/
 .slideshow {
   position: relative;
@@ -262,7 +266,6 @@ img{
 	float: left;
 }
 #values{
-	float: right;
 	width: 350px;
 }
 #values h3{
@@ -293,6 +296,16 @@ img{
 	background: url("/assets/nw_med.jpg");
 	float:right;
 }
+#notable_projects{
+	width: 900px;
+	margin-top: 360px;
+}
+#notable_projects img{
+	margin-right: 50px;
+	margin-bottom: 20px;
+	width: 150px;
+
+}	
 /************SERVICES*************/
 #services_wrapper #container{
 	background: #fffde7 url("/assets/handshake.jpg") no-repeat;
