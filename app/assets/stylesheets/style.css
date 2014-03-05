@@ -251,7 +251,7 @@ img{
 	width: 450px;
 }
 #about_wrapper #container{
-	background: #fffde7 url("/assets/handshake.jpg") no-repeat;
+	/*background: #fffde7 url("/assets/handshake.jpg") no-repeat;*/
 	/*background: #fffde7 url("/assets/marine_run.jpg") no-repeat;*/
 }
 #about_wrapper h3{
@@ -275,10 +275,15 @@ img{
 #portfolio_wrapper #container p {
 	margin-bottom: 20px;
 }
-#portfolio_wrapper #container	h3{
+#portfolio_wrapper #container	h2{
+	border-bottom: 1px solid #000;
+	width: 910px;
+	margin: 25px 0;
+}
+#portfolio_wrapper #notable_projects h3{
 	border-bottom: 1px dashed #000;
-	width: 273px;
-	margin: 10px 0;
+	width: 870px;
+	margin: 25px 0;
 }
 #portfolio_wrapper #info{
 	/*background: #fffde7 url("/assets/handshake.jpg") no-repeat;*/
@@ -301,14 +306,17 @@ img{
 	margin-top: 360px;
 }
 #notable_projects img{
-	margin-right: 50px;
+	margin-right: 25px;
 	margin-bottom: 20px;
 	width: 150px;
-
 }	
+#notable_projects p{
+	width: 155px;
+	font-size: 14px;
+}
 /************SERVICES*************/
 #services_wrapper #container{
-	background: #fffde7 url("/assets/handshake.jpg") no-repeat;
+	/*background: #fffde7 url("/assets/handshake.jpg") no-repeat;*/
 }
 #services_wrapper #info{
 	padding:25px 45px;
@@ -363,6 +371,10 @@ img{
 }
 #nudge{
 	margin-right:65px;
+}
+#team_wrapper a{
+	color:#000;
+	text-decoration: underline;
 }
 /************WORK ORDER SYSTEM*************/
 #wos_wrapper #info{
