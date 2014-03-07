@@ -1,11 +1,11 @@
 class UserMailer < ActionMailer::Base
-  default from: "pcosentino88@gmail.com"
+  default from: "office@completecustom.net"
 
 
   def send_email(user_info)
     @name = user_info[:name]
     @email = user_info[:email]
     @description = user_info[:description]
-    mail(:to => "pcosentino88@gmail.com", :subject => "Email Notification")
+    mail(:to => "office@completecustom.net", :subject => "Email Notification")
   end
 end
