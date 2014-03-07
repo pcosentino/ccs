@@ -202,20 +202,20 @@ img{
 	float: left;
 }
 #wbe{
-	background: url("/assets/aff_sprite.png")-411px 0px;
-	width: 179px;
+	background: url("/assets/aff_sprite.png")-412px 0px;
+	width: 158px;
 	height: 65px;
 	float: left;
 }
 #nfpa{
-	background: url("/assets/aff_sprite.png")-591px 0px;
-	width: 63px;
+	background: url("/assets/aff_sprite.png")-570px 0px;
+	width: 66px;
 	height: 65px;
 	float: left;
 }
 #cms{
-	background: url("/assets/aff_sprite.png") -656px 0px;
-	width:240px;
+	background: url("/assets/aff_sprite.png") -636px 0px;
+	width:242px;
 	height: 65px;
 	float:left;
 }
