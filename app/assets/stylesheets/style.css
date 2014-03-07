@@ -14,7 +14,7 @@ h1{
 
 	font-family: scratch;
 	font-size: 2em;
-	border-bottom: 1px solid #000;
+	border-bottom: 2px solid #000;
 }
 h3{
 	font-family: scratch;
@@ -213,12 +213,19 @@ img{
 	height: 70px;
 	float: left;
 }
+#cms{
+	background: url("/assets/aff_sprite.png") -650px 0px;
+	width:259px;
+	height: 70px;
+	float:left;
+}
 .aff{
-	margin-right:50px;
+	margin-right:10px;
 }
 #aff_imgs{
 	width: 110%;
 	height:70px;
+	margin-left: -30px;
 }
 /************INDEX*************/
 .slideshow {
