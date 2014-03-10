@@ -3,6 +3,6 @@ ActionMailer::Base.smtp_settings = {
      :port                 => 587,
      :domain               => "gmail.com",
      :user_name            => 'office@completecustom.net',
-     :password             => 'tools123',
+     :password             => 'cosmetology!1',
      :authentication       => 'plain',
 :enable_starttls_auto => true }
