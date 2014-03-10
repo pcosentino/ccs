@@ -1,7 +1,7 @@
 ActionMailer::Base.smtp_settings = {
      :address              => "smtp.gmail.com",
      :port                 => 587,
-     :domain               => "google.com",
+     :domain               => "completecustom.net",
      :user_name            => 'office@completecustom.net',
      :password             => 'cosmetology!1',
      :authentication       => 'plain',
