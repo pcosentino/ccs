@@ -5,7 +5,7 @@
 	font-family: scratch;
 	src:url(/assets/pwscratchedfont-webfont.woff);
 }
-html{
+body{
 	background: url(/assets/dark-wood.jpg);
 	/*font-family: 'Patrick Hand', cursive;*/
 	font-family: 'Russo One', sans-serif;
@@ -42,10 +42,11 @@ img{
 }
 /************NAVIGATION*************/
 #navigation{
-	width: 550px;
+/*	width: 550px;
 	position: absolute;
 	margin-left: 465px;
-	margin-top: -5px;
+	margin-top: -5px;*/
+	float: right;
 }
 #home{
 	margin-left: 25px;
@@ -56,7 +57,11 @@ img{
 	display:block;
 	vertical-align: middle;
 }
-#about, #work, #services, #team,#wos{
+#about,
+#work,
+#services,
+#team,
+#wos{
 	background: url(/assets/dark-wood.jpg);
 	color:#fff;
 	padding:12px;
@@ -67,13 +72,17 @@ img{
 	margin-right:-5px;
 	margin-bottom: 0px;
 }
-#about:hover, #work:hover, #services:hover, #wos:hover{
+#about:hover, 
+#work:hover, 
+#services:hover, 
+#team:hover,
+#wos:hover{
 	text-decoration: underline;
 }
 #upper_nav{
-	height: 74px;
-	margin-left: 500px;
 	display: block;
+	text-align: right;
+	margin-right:10px;
 }
 #upper_nav a:hover{
 	text-decoration: underline;
@@ -103,7 +112,6 @@ img{
 }
 #footer #content{
 	width:900px;
-	height: 400px;
 	margin:0 auto;
 }
 #footer span#marine{
@@ -117,12 +125,14 @@ img{
 }
 #footer #us_flag{
 	width: 145px;
-	margin-left: 27px;
+	margin-left: 30px;
 }
 #footer #marine p{
-	width: 260px;
+	font-size:1.2em;
+	margin-top:5px;
+	/*width: 260px;*/
 	/*display: inline-block;*/
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 }
 #footer #aff_imgs{
 	width: 110%;
@@ -148,6 +158,7 @@ img{
 #footer #connect p{
 	text-align: right;
 	font-style: italic;
+	font-size: 1.2em;
 }
 #footer #connect #years h1{
 	font-size: 60px;
@@ -225,7 +236,7 @@ img{
 #aff_imgs{
 	width: 110%;
 	height:65px;
-	margin-left: -30px;
+	margin-left: -25px;
 }
 /************INDEX*************/
 .slideshow {
@@ -287,15 +298,20 @@ img{
 	width: 910px;
 	margin: 25px 0;
 }
+#portfolio_wrapper .project{
+	margin-top: 15px;
+}
 #portfolio_wrapper #notable_projects h3{
 	border-bottom: 1px dashed #000;
-	width: 870px;
 	margin: 25px 0;
+	display: block;
+	text-align: left;
+	border-radius: 0;
 }
 #portfolio_wrapper #info{
 	/*background: #fffde7 url("/assets/handshake.jpg") no-repeat;*/
 	/*background: url("/assets/usmarine.jpg") no-repeat 14px 80px;*/
-	width: 330px;
+	width: 400px;
 	float: left;
 	padding:25px 45px;
 }
@@ -385,9 +401,9 @@ img{
 }
 /************WORK ORDER SYSTEM*************/
 #wos_wrapper #info{
-	width: 345px;
+	width: 375px;
 	float: left;
-	padding:25px 0px 0px 45px
+	padding:10px 0px 0px 45px
 }
 #wos_wrapper h1{
 	font-size: 28px;
@@ -403,12 +419,20 @@ img{
 }
 .field{
 	width:220px;
+	display: block;
+}
+.label{
+	color:#333;
+	font-size: 100%;
 }
 textarea{
 	border:1px solid #b0b0b0;
 	width:220px;
 	height:100px;
 	resize:none;
+}
+#submit_form_button{
+	display: block;
 }
 .disable {
     color:#b7b7b7;

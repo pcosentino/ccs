@@ -101,5 +101,10 @@ jQuery(function ($) {
     };
     click();
     //END SUBMIT FORM UNBIND
+
+    $(".fancybox").fancybox({
+        openEffect  : 'elastic',
+        closeEffect : 'elastic'
+    });
 });
 
