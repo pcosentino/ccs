@@ -50,12 +50,10 @@ img{
 }
 #home{
 	margin-left: 25px;
-	background: url(/assets/ccs.png) no-repeat;
-	width: 320px;
-	height: 115px;
 	text-indent: -9999px;
-	display:block;
-	vertical-align: middle;
+}
+#home img{
+	margin-top: 3px;
 }
 #about,
 #work,
